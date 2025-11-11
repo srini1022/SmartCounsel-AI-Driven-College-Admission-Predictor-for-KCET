@@ -21,21 +21,22 @@ It uses machine learning (Random Forest Regressor) trained on real KCET cutoff d
     Dataset	KCET Cutoff Data (File.csv)
 
 ⚙️ Project Structure
-    SmartCounsel/
-    │
-    ├── backend/
-    │   ├── app.py                         # Flask backend server (main logic)
-    │   ├── data/
-    │   │   └── File.csv                   # KCET cutoff dataset
-    │   └── exports/                       # Auto-generated prediction result CSVs
-    │
-    ├── frontend/
-    │   ├── index.html                     # Web interface
-    │   ├── styles.css                     # UI styling
-    │   ├── app.js                         # Frontend logic (API integration)
-    │   └── img1.jpg                       # Background image
-    │
-    └── README.md                          # Project documentation
+SmartCounsel/
+│
+├── backend/
+│   ├── app.py                         # Flask backend server (main logic)
+│   ├── data/
+│   │   └── File.csv                   # KCET cutoff dataset
+│   └── exports/                       # Auto-generated prediction result CSVs
+│
+├── frontend/
+│   ├── index.html                     # Web interface
+│   ├── styles.css                     # UI styling
+│   ├── app.js                         # Frontend logic (API integration)
+│   └── img1.jpg                       # Background image
+│
+└── README.md                          # Project documentation
+
 
 ⚡ How It Works
 
