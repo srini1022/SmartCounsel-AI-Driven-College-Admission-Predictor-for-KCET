@@ -1,0 +1,55 @@
+﻿Institution,CourseName,1G,Predicted_AvgCutoffRank
+"E266  BMS College of Architecture  BMSCE Campus,Bangalore",AR Architecture,96.0,205.1039772727273
+"E244  R V College of Architecture  Chikkegowdanapally,Bangalore",AR Architecture,183.0,213.8224318181823
+"E298  School of Architecture,M S Ramaiah Inst. of Technology, Bangalore  Bangalore",AR Architecture,190.0,226.84279545454575
+E009  P E S University (Ring Road Campus)  Bangalore,AR Architecture,196.0,209.99479545454517
+"E215  B M S School of Architecture  Yalahanka, Bangalore",AR Architecture,234.0,283.19475505050445
+E001  University of Visvesvaraya College of Engineering  Bangalore ( PUBLIC UNIV. ),AR Architecture,265.0,292.92029040404
+E248  Wadiyar Centre For Architecture  Mysuru,AR Architecture,320.0,306.37261111111155
+E005  R. V. College of Engineering  Bangalore,CS Computers,408.0,1453.303768170422
+E276  Dayananda Sagar College of Architecture  Bangalore,AR Architecture,444.0,511.9202324561408
+E005  R. V. College of Engineering  Bangalore,IE Info.Science,593.0,2709.164914995821
+E005  R. V. College of Engineering  Bangalore,AI ArtificialIntelligence,874.0,2899.0976315789426
+E006  M S Ramaiah Institute of Technology  Bangalore,CS Computers,1024.0,3143.0399530075138
+E005  R. V. College of Engineering  Bangalore,CY CS- CyberSecurity,1067.0,3152.5317625313237
+E005  R. V. College of Engineering  Bangalore,"CA CS (AI, MachineLearning)",1387.0,4541.387981032136
+E005  R. V. College of Engineering  Bangalore,DS Comp. Sc. Engg-Data Sc.,1566.0,5367.654731878719
+E005  R. V. College of Engineering  Bangalore,EC Electronics,1641.0,6216.991082755911
+E021  Sri Jayachamarajendra College of Engineering(Const. of JSS Univ.)  Mysore,CS Computers,2073.0,6855.663507575773
+E006  M S Ramaiah Institute of Technology  Bangalore,"CA CS (AI, MachineLearning)",2154.0,7848.476830468574
+E006  M S Ramaiah Institute of Technology  Bangalore,IE Info.Science,2163.0,7395.307275549603
+E006  M S Ramaiah Institute of Technology  Bangalore,AI ArtificialIntelligence,2283.0,8742.536902618645
+E006  M S Ramaiah Institute of Technology  Bangalore,CY CS- CyberSecurity,2564.0,7177.107974598916
+E001  University of Visvesvaraya College of Engineering  Bangalore ( PUBLIC UNIV. ),CS Computers,2601.0,7177.107974598916
+E006  M S Ramaiah Institute of Technology  Bangalore,"AD ArtificialIntel, Data Sc",2664.0,10368.424615270367
+E007  Dayananda Sagar College of Engineering  Bangalore,CS Computers,2789.0,8289.778114058532
+E284  Sri Jayachamarajendra College of Engineering(Const. of JSS Univ.)  Mysore,CS Computers,2963.0,8205.779548550516
+E057  JSS Science and Technology University(Formerly SJCE)  Mysore,IE Info.Science,3122.0,10763.120329806246
+E005  R. V. College of Engineering  Bangalore,SE Aero SpaceEngg.,3258.0,12888.913333516515
+E057  JSS Science and Technology University(Formerly SJCE)  Mysore,CS Computers,3271.0,9034.66623378524
+E016  Siddaganga Institute of Technology  Tumkur,CS Computers,3293.0,9706.066233785226
+E009  P E S University (Ring Road Campus)  Bangalore,BW B Tech in CS,3358.0,9590.654664092994
+"E003  B M S College of Engineering  Basavanagudi,Bangalore",EC Electronics,3409.0,10207.423566216115
+E006  M S Ramaiah Institute of Technology  Bangalore,EC Electronics,3773.0,9942.375283925065
+E021  Sri Jayachamarajendra College of Engineering(Const. of JSS Univ.)  Mysore,EC Electronics,4265.0,11319.229719829902
+E007  Dayananda Sagar College of Engineering  Bangalore,IE Info.Science,4470.0,12386.496226264228
+E009  P E S University (Ring Road Campus)  Bangalore,AM B Tech in AM,4797.0,15182.678074788122
+E008  Bangalore Institute of Technology  Bangalore,CS Computers,5114.0,12091.883540802735
+E005  R. V. College of Engineering  Bangalore,ET Elec.Telecommn. Engg.,5309.0,14304.163081785371
+"E126  B M S Institute of Technology and Management  Yelahanka, Bangalore",CS Computers,5440.0,14883.86571259588
+E141  P E S University (Electronic City Campus)  Bangalore,AM B Tech in AM,5542.0,20244.83891785541
+E008  Bangalore Institute of Technology  Bangalore,IE Info.Science,5590.0,13382.262875645021
+E001  University of Visvesvaraya College of Engineering  Bangalore ( PUBLIC UNIV. ),IE Info.Science,5591.0,12146.16182301343
+E241  KLE Technological University(Formerly BVBCET)  Dharward Dist,CS Computers,5956.0,15916.33861187305
+E005  R. V. College of Engineering  Bangalore,ME Mechanical,6009.0,19764.022160832443
+E105  Nitte Meenakshi Institutute of Technology  Bangalore,CS Computers,6093.0,15826.032318184283
+"E275  R V Institute of Technology and Management  JP Nagar, Bengaluru",CS Computers,6173.0,17393.95505143789
+E005  R. V. College of Engineering  Bangalore,BT Bio Technology,6349.0,20858.340495285447
+E007  Dayananda Sagar College of Engineering  Bangalore,AI ArtificialIntelligence,6889.0,15787.610687417076
+E178  The National Institute of Engineering(NORTH CAMPUS)  Mysore,CS Computers,6940.0,14329.776384271963
+E057  JSS Science and Technology University(Formerly SJCE)  Mysore,CB Comp. Sc. andBus Sys.,7283.0,21449.633569183898
+E022  The National Institute of Engineering(SOUTH CAMPUS)  Mysore,EC Electronics,7298.0,16373.507403611498
+E001  University of Visvesvaraya College of Engineering  Bangalore ( PUBLIC UNIV. ),AI ArtificialIntelligence,7418.0,15187.793783270461
+E005  R. V. College of Engineering  Bangalore,EE Electrical,7477.0,11849.74408150951
+E016  Siddaganga Institute of Technology  Tumkur,IE Info.Science,7583.0,16047.871810840632
+"E003  B M S College of Engineering  Basavanagudi,Bangalore",EE Electrical,7642.0,13824.742844278731

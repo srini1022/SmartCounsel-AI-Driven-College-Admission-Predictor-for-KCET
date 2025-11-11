@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  background-image: url("img1.jpg"); /* in static/ */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;    /* auto expand with content */
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  padding: 30px;       /* spacing around container */
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;   /* allow bigger tables */
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9); /* translucent white for readability */
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+  overflow-x: auto;    /* scroll horizontally if table is too wide */
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+input, select, button {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+/* 📊 Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  white-space: nowrap;  /* prevents text wrapping */
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
