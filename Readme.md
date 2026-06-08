@@ -1,107 +1,181 @@
-🎓 SmartCounsel – AI-Driven College Admission Predictor for KCET
+# 🎓 SmartCounsel – AI-Driven College Admission Predictor for KCET
 
-🧠 Overview
+## 🧠 Overview
+
 SmartCounsel is an AI-powered web application that predicts suitable engineering colleges in Karnataka based on a student's KCET rank and reservation category.
-It uses machine learning (Random Forest Regressor) trained on real KCET cutoff datasets to recommend colleges where a student is most likely to get admission.
 
-🚀 Features
-    🧩 AI Prediction Model – Uses Random Forest Regression to analyze cutoff trends.
-    ⚙️ Dynamic Data Cleaning – Handles missing or invalid data automatically.
-    💡 Smart Filtering – Predicts top N colleges based on user’s rank and category.
-    📊 Downloadable Results – Generates a CSV file of predicted eligible colleges.
-    🌐 Interactive Frontend – Built with HTML, CSS, and JavaScript.
-    🔗 Flask REST API Backend – Provides endpoints for prediction and file download.
+The system uses a Machine Learning model (Random Forest Regressor) trained on historical KCET cutoff data to recommend colleges where a student is most likely to secure admission.
 
-🏗️ Tech Stack
-    Layer	Technology
-    Frontend	HTML, CSS, JavaScript
-    Backend	Python (Flask), Flask-CORS
-    Machine Learning	Scikit-learn (RandomForestRegressor)
-    Data Handling	Pandas, NumPy
-    Dataset	KCET Cutoff Data (File.csv)
+---
 
-⚙️ Project Structure
+## 🚀 Features
+
+- 🧩 AI-powered college admission prediction
+- 📊 Random Forest Regression model
+- ⚙️ Automated data cleaning and preprocessing
+- 🎯 Personalized recommendations based on rank and category
+- 📥 Downloadable CSV reports
+- 🌐 Interactive web interface
+- 🔗 Flask REST API backend
+- 📈 Performance evaluation using R² Score and RMSE
+
+---
+
+## 🏗️ Tech Stack
+
+| Layer | Technology |
+|---------|------------|
+| Frontend | HTML, CSS, JavaScript |
+| Backend | Python, Flask, Flask-CORS |
+| Machine Learning | Scikit-Learn (RandomForestRegressor) |
+| Data Processing | Pandas, NumPy |
+| Dataset | KCET Historical Cutoff Data |
+
+---
+
+## ⚙️ Project Structure
+
+```text
 SmartCounsel/
 │
 ├── backend/
-│   ├── app.py                         # Flask backend server (main logic)
+│   ├── app.py
 │   ├── data/
-│   │   └── File.csv                   # KCET cutoff dataset
-│   └── exports/                       # Auto-generated prediction result CSVs
+│   │   └── File.csv
+│   └── exports/
 │
 ├── frontend/
-│   ├── index.html                     # Web interface
-│   ├── styles.css                     # UI styling
-│   ├── app.js                         # Frontend logic (API integration)
-│   └── img1.jpg                       # Background image
+│   ├── index.html
+│   ├── styles.css
+│   ├── app.js
+│   └── img1.jpg
 │
-└── README.md                          # Project documentation
+├── SmartCounsel AI-Driven College Admission Predictor for KCET.pdf
+├── final certificate updated-302.pdf
+│
+└── README.md
+```
 
+---
 
-⚡ How It Works
+## ⚡ How It Works
 
-    User selects their category (GM, 2AG, SCG, etc.).
+1. User selects a reservation category.
+2. User enters their KCET rank.
+3. User chooses the number of colleges to display.
+4. The system:
+   - Loads historical KCET cutoff data
+   - Cleans and preprocesses the dataset
+   - Encodes categorical features
+   - Trains a Random Forest Regressor
+   - Predicts eligible colleges
+   - Displays recommendations
+   - Allows CSV export of results
 
-    Enters their KCET rank and number of top colleges to display.
+---
 
-    The system:
+## 🧩 API Endpoints
 
-    Loads and cleans the dataset.
+| Endpoint | Method | Description |
+|-----------|---------|-------------|
+| `/inspect` | GET | Returns available categories |
+| `/process` | POST | Predicts colleges using rank and category |
+| `/download/<filename>` | GET | Downloads prediction results |
 
-    Encodes course names and fills missing cutoff values.
+---
 
-    Trains a Random Forest model on historical cutoff data.
+## 🔧 Installation
 
-    Predicts eligibility based on user input.
+### Clone Repository
 
-    Displays top predicted colleges and allows CSV download.
+```bash
+git clone https://github.com/your-username/SmartCounsel-AI-KCET-College-Predictor.git
+cd SmartCounsel-AI-KCET-College-Predictor
+```
 
-🧩 API Endpoints
-    Endpoint	Method	Description
-    /inspect	GET	Returns available cutoff categories
-    /process	POST	Predicts colleges based on category and rank
-    /download/<filename>	GET	Downloads prediction results
+### Install Dependencies
 
-🔧 How to Run Locally
+```bash
+pip install flask flask-cors pandas numpy scikit-learn
+```
 
-    1️⃣ Setup Backend
-        cd backend
-        pip install flask flask-cors pandas numpy scikit-learn
-        python app.py
+### Run Application
 
-    2️⃣ Setup Frontend
-        Place the frontend files (index.html, app.js, styles.css) in a folder like /frontend.
+```bash
+python app.py
+```
 
-    3️⃣ Run the App
-        Open your browser and go to:
-        http://127.0.0.1:5000
+Open:
 
-🧮 Example Input
+```text
+http://127.0.0.1:5000
+```
+
+---
+
+## 📊 Example Input
+
+```text
 Category: GM
-CET Rank: 25000
-Top N: 10
+KCET Rank: 25000
+Top N Colleges: 10
+```
 
-✅ Example Output
-    Institution	Course	Cutoff (GM)	Predicted Avg Cutoff
-    PES University	CSE	27500	28050.12
-    BMSCE	ISE	24000	24210.78
-    RVCE	ECE	26000	26530.41
-📈 Model Performance (Sample)
-    Metric	Value
-    R² Score	~0.85
-    RMSE	~1500
+---
 
+## 📈 Model Performance
 
-🧑‍💻 Future Enhancements
+| Metric | Value |
+|---------|---------|
+| R² Score | 0.85 – 0.98 |
+| RMSE | 1500 – 9000 |
 
-    Add college location filters (city/district).
-    Implement stream-wise predictions (CSE, ECE, ME, etc.).
-    Integrate live KCET data updates.
-    Deploy using Render / AWS / Heroku.
+---
 
-👨‍🎓 Author
+## 📄 Research Publication
 
-    Project: SmartCounsel – AI Driven College Admission Predictor for KCET
-    Developer: srinidhi M D
-    Tech Stack: Flask + ML + Web Frontend
-    Purpose: Academic/Portfolio Project demonstrating AI integration in educational guidance.
+### Conference Presentation
+
+Presented at the **2nd International Conference on Optimization Techniques for Learning (ICOTL 2026)**
+
+### Paper Title
+
+**SmartCounsel: AI-Driven College Admission Predictor for KCET**
+
+### Documents
+
+- 📄 [Research Paper](./SmartCounsel%20AI-Driven%20College%20Admission%20Predictor%20for%20KCET.pdf)
+- 🏆 [Conference Certificate](./final%20certificate%20updated-302.pdf)
+
+---
+
+## 🔮 Future Enhancements
+
+- College location filtering
+- Stream-wise recommendations
+- Live KCET data integration
+- Cloud deployment (AWS / Render)
+- Analytics dashboard
+
+---
+
+## 👨‍💻 Author
+
+**Srinidhi M D**
+
+B.Tech – Computer Science and Engineering  
+M S Ramaiah University of Applied Sciences
+
+### Skills Demonstrated
+
+- Machine Learning
+- Random Forest Regression
+- Flask Development
+- Data Science
+- Predictive Analytics
+- Web Development
+- REST API Development
+
+---
+
+⭐ If you found this project useful, consider giving it a star on GitHub.
